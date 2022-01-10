@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #282D35;
+    color: #fff;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+nav{
+    background-color: #21222A;
+    padding: 2em 0;
+}
+nav .container{
+    display: flex;
+    align-items: center;
+}
+nav h1{
+    margin-right: auto;
+    font-size: 2.4em;
+    color: #61DAFB;
+    margin-left: .2em;
+}
+nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+main{
+    padding: 5em 0;
+}
+main h2{
+    font-size: 3em;
+    margin-bottom: .7em;
+}
+main ul{
+    padding-left: 3em;
+}
+main li{
+    line-height: 2em;
+    font-size: 1.3em;
+    letter-spacing: .04em;
+    list-style: none;
+}
+ul li::before {
+    content: "\2022";  
+    color: #61DAFB; 
+    font-weight: bold; 
+    font-size: 1.3em;
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
+}
